@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style>
+		p{
+			color: gray;
+		}
+		body{
+			background: linen;
+		}
+		h1{
+			font-style: italic;
+			color: maroon;
+		}
+		.special{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+		<form>
+			<h1>New HTML5 Input Types Demo</h1>
+			<p>This form demonstrates the new HTML5 input types and the placeholder, requited and auto attributes.</p>
+			<p class="special"><label>Color: <input	type="color" name="color" autofocus /> (Hexadecimal code such as #ADD8E6</label></p>
+			<p><label>Date: <input type="date" name="date" /> (yyyy-mm-dd</label></p>
+			<p><label>Email: <input type="email" name="email" placeholder="name@domain.com" /> (name@domain.com)</label></p>
+			<p><label>Number: <input type="number" name="number" min="0" max="7"/> (Enter nuber between 0 and 7)</label></p>
+			<p><label>Range: 0<input type="range" name="range" min="0" max="20">20 </label></p>
+			<p><label>Search: <input type="search" name="search" placeholder="search query"></label></p>
+			<p><label>	Time: <input type="time" name="time"> (hh:mm)</label></p>
+			<p><label><input type="submit" name="submit" value="Submit"></label>
+			<label><input type="reset" name="clear" value="Clear"></label></p>
+		</form>
+</body>
+</html>
